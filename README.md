@@ -6,7 +6,9 @@ This is a text editor written in C. It is mostly complete, however, there is som
 To run this program, you will need a C compiler. There are several online options [this being one of them](https://www.onlinegdb.com/online_c_compiler) that also allows you to enter command line arguments. Alternatively, you can download one in your IDE or one is included on Linux (easiest way to run). After downloading the repo, in a Linux terminal (can be [used inside Windows using WSL](https://learn.microsoft.com/en-us/windows/wsl/install)), navigate to the directory containing `kilo.c`. The program is self-contained within `kilo.c`, so that's the only file you need.
 
 Assuming you have a C compiler installed, to run this program:
-1. Type `./kilo filename` where `filename` is the name of the file you wish to edit - e.g. `./kilo kilo.c` produces the below result:
+Type `./kilo path/to/filename` where `path/to/filename` is the name of the file you wish to edit. In the below case, we are editing the C file itself, so there is no need to write a longer path to the file.
+
+`./kilo kilo.c` produces the below result:
 
 ![image](https://github.com/user-attachments/assets/6e01c437-dcfd-40ad-9a05-6948a79fca75)
 
